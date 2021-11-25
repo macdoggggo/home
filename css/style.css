@@ -1,0 +1,186 @@
+@font-face {
+    font-family: mclawsui;
+    src: url(../mclawsui.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "mclawsui";
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 95vw;
+    position: relative; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1400px;
+} 
+
+.header img {
+    width: 75px;
+}
+
+.header-logo { 
+    font-family: "mclawsui"; 
+    margin: 0 30px;
+}
+
+.header-logo > h1 > span:nth-child(1) {
+    color: #FFC700;
+}
+
+.header-logo > h1 > span:nth-child(2) {
+    color: #E50001;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navigation a { 
+    margin: 10px 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+.tools-box {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.tools-box a { 
+    margin: 10px;
+}
+
+.buy {
+    background-color: #39CAD2;
+    color: rgb(12, 9, 9);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.5s background-color ease;
+}
+
+.chart { 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.5s background-color ease;
+    background-color: #885844;
+}
+
+.buy img, .chart img {
+    position: relative;
+    top: 3px;
+}
+
+
+.buy:hover, .chart:hover{
+    background-color: #FFC700;
+}
+
+
+#story {
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.story img{
+    max-width: 100%;
+}
+
+.dogggo-trump{
+    width: 100%;
+    max-width: 800px;
+}
+
+.images-nosense {
+    display: flex;
+    justify-content: center;
+}
+
+.images-nosense img {
+    min-width: 200px;
+    max-width: 30px;
+}
+
+.wooper{
+    transform: translate(100px, 110px);
+}
+
+.dogggo-drink{
+    transform: translate(124px, -37px);
+}
+
+.patatas{
+    transform: translate(-100px, 110px);
+}
+
+
+.quote {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ 
+#mission {
+    padding-top: 10px;
+    
+}
+
+.roadmap {
+    padding-top: 100px;
+}
+
+.roadmap-image{
+    max-width: 100%;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #885844;
+    text-align: center;
+}
+
+@media(min-width: 756px){
+    .wooper{
+        transform: translate(-130px, -3px);
+    }
+    
+    .patatas{
+        transform: translate(70px, 210px);
+    }
+}
